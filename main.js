@@ -22,5 +22,5 @@ if (require.main === module) {
   // 如果是直接执行 main.js，则进入此处
   // 如果 main.js 被其他文件 require，则此处不会执行。
   var n = Number(process.argv[2]);
-  console.log('fibonacci(' + n + ') is', fibonacci(n));
+  console.log('fibonacci(' + n + ')  is', fibonacci(n));
 }
